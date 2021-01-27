@@ -30,9 +30,10 @@ actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
 
 - Setting up System:
   - Using the soldering gun, attach all parts of the system according to this circuit diagram
+  - A circuit diagram of the system set-up can be found [here](https://www.amazon.com/Smraza-Ultrasonic-Distance-Mounting-Duemilanove/dp/B01JG09DCK/ref=sr_1_3?dchild=1&keywords=hcsr04+ultrasonic+sensor&qid=1611768243&sr=8-3).
 
-- Use
+- Use **add more here**
 
-These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user.
+These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point.
 
 Future considerations for these sensors include adding ping pong balls over the LEDs so that their color more visible from far distances.
