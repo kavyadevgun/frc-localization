@@ -6,17 +6,32 @@ In addition, students will be able to point the sensor set-up at a solid surface
 
 A multi color LED will change color as an indicator of how close the user is to the current preset. The LED conditions are as follows:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Red light**
+**Red light**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actualdistance < distanceSet - 12 OR actualdistance > distanceSet + 12
+actualdistance < distanceSet - 12 OR actualdistance > distanceSet + 12
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Yellow light**
+**Yellow light**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actualdistance > distanceSet - 12 && actualdistance < distanceSet - 1 OR actualdistance < distanceSet + 12  && &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actualdistance > distanceSet + 1
+actualdistance > distanceSet - 12 && actualdistance < distanceSet - 1 OR actualdistance < distanceSet + 12 && actualdistance > distanceSet + 1
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Green light**
+**Green light**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
+actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
+
+- Supplies
+  - Arduino Uno R3 board
+  - Compatible Arduino proto shield
+  - 2 HC-SR04 ultrasonic sensors
+  - 10 kΩ Potentiometer
+  - 3 Buttons
+  - Male to male jumper cables
+  - Female to male jumper cables
+  - Soldering device
+
+- Setting up System:
+  - Using the soldering gun, attach all parts of the system according to this circuit diagram
+
+- Use
 
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user.
 
