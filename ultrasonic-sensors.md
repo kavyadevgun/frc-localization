@@ -6,19 +6,18 @@ In addition, students will be able to point the sensor set-up at a solid surface
 
 A multi color LED will change color as an indicator of how close the user is to the current preset. The LED conditions are as follows:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Red light*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Red light**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actualdistance < distanceSet - 12 OR actualdistance > distanceSet + 12
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Yellow light*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Yellow light**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actualdistance > distanceSet - 12 && actualdistance < distanceSet - 1 OR actualdistance < distanceSet + 12  && &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actualdistance > distanceSet + 1
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Green light*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Green light**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
 
-
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user.
 
-Possible additions to the ultrasonic sensors is using them throughout the competition to “check” and recalibrate the position of the robot as needed by the user.  Other additions include the use of ping pong balls as a cap to the LEDs, to make their color more visible from far distances.
+Future considerations for these sensors include adding ping pong balls over the LEDs so that their color more visible from far distances.
