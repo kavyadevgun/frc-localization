@@ -1,4 +1,8 @@
-Finding the initial position is key to minimize error throughout the competition. 
+Finding the initial position is key to minimize error throughout the competition.
+
+To find the initial position, we created a system that uses HC-SR04 Ultrasonic Sensors. We chose these sensors because they are easily integratable with Arduino, and they come in most Arduino starter kits. These sensors are also a good choice because they are budget-friendly without compromising measurement accuracy. The sensors have the ability to measure distances between 0.78 inches and 196 inches, and they are precise up to 0.12 inches ([source](https://www.amazon.com/Smraza-Ultrasonic-Distance-Mounting-Duemilanove/dp/B01JG09DCK/ref=sr_1_3?dchild=1&keywords=hcsr04+ultrasonic+sensor&qid=1611768243&sr=8-3)).
+
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
 
 **how do distance sensors work**
 
