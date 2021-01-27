@@ -30,7 +30,7 @@ actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
 
 - Setting up System:
   - Using the soldering gun, attach all parts of the system according to this circuit diagram
-  - A circuit diagram of the system set-up can be found [here](https://www.amazon.com/Smraza-Ultrasonic-Distance-Mounting-Duemilanove/dp/B01JG09DCK/ref=sr_1_3?dchild=1&keywords=hcsr04+ultrasonic+sensor&qid=1611768243&sr=8-3).
+  - A circuit diagram of the system set-up can be found [here](https://i.imgur.com/W5FIrYc.png).
 
 - Use **add more here**
 
