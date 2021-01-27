@@ -6,7 +6,7 @@ The [function](https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tu
 
 distance (inches) = (total time (microseconds) * 0.0343 (speed of sound in centimeters per microsecond))/(2 (isolate one direction of travel) * 2.54 (centimeters per inch))
 
-<img src="https://imgur.com/a/2Z9yiy2" > 
+![image](https://imgur.com/a/2Z9yiy2.png)
 
 By implementing an LCD screen, this distance measurement is read and constantly updating. Using the ultrasonic sensor measurements, the distance from the walls will constantly be updated and the instantaneous position of the robot will be displayed on an LCD screen and sent to the Robot’s system.  
 
