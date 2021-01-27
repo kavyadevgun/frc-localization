@@ -9,10 +9,14 @@ distance (inches) = (total time (microseconds) * 0.0343 (speed of sound in centi
 **how do distance sensors work**
 
 **what is the set up of the system**
+By implamenting an LCD screen, this distance measurement is read and constantly updating.
 
-During the competition preparation season, students will be able to point our sensor set up at a solid surface and save their desired distances -- up to four "presets" -- in the Arduino computer that is wired inside of the system. During the actual competition, the students will be able to cycle through their saved presets so that the distance 
+Using the ultrasonic sensor measurements, the distance from the walls will constantly be updated and the instantaneous position of the robot will be displayed on an LCD screen and sent to the Robot’s system.  
 
-The distance from the walls will be displayed on an LCD screen and sent to the Robot’s system. A multi color LED will change color (on a scale of a red light meaning that the robot is far from the ideal position, a yellow light indicating that the robot is partially close, and a green light indicating that the robot is in range) as an indicator of how close the user is to the desired starting position. This desired starting position can be input by the user depending on the field layout.
+In addition, students will be able to point our sensor set up at a solid surface and save their desired distances in the Arduino computer that is wired inside of the system.  These “presets” will serve as various positions the robot can be placed in at the start of the round.  During the actual competition, the students will be able to cycle through their saved presets, four overall, so that they can recall precise initial positions and align the robot as accurately as possible.  
+
+A multi color LED will change color as an indicator of how close the user is to the current preset.  If the LED appears red, the robot is 12 or more inches away from the preset distance, if the LED appears yellow, the robot is within 12 inches of the preset distance (but not closer than an inch), and if the LED appears green, the robot is within 1 inch of the preset distance.
 
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user.
-Use ping pong balls
+
+Possible additions to the ultrasonic sensors is using them throughout the competition to “check” and recalibrate the position of the robot as needed by the user.  Other additions include the use of ping pong balls as a cap to the LEDs, to make their color more visible from far distances.
