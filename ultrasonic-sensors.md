@@ -61,4 +61,4 @@ A video demonstrating these features can be found [here](https://www.youtube.com
 Future considerations for these sensors include designing a custom circuit board for a more permanant product (as opposed to soldering, making the system more accesible to FRC teams), integrating the ultrasonic sensors with the roboRIO in conjunction with the position system for recalibration purposes,
 and adding ping pong balls over the LEDs so that their color is more visible from far distances.
 
-The Arduino code for this system is avaliable in this repository under the name "ultrasonic_sensor_system_code.ino".
+The Arduino code for this system is avaliable in this repository under the name "Ultrasonic_Sensor_System_Code.ino".
