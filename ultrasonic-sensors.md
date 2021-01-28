@@ -58,7 +58,7 @@ The Arduino code for this system is available in this repository under the name 
 
 You can download Arduino IDE from [here](https://www.arduino.cc/en/software).
 
-You can download the necessary libraries used in our code [here](https://github.com/fasteddy516/ButtonEvents) and [here](https://github.com/thomasfredericks/Bounce2).
+You can download the necessary libraries included in our code [here](https://github.com/fasteddy516/ButtonEvents) and [here](https://github.com/thomasfredericks/Bounce2).
 
 ### Alignment Feature
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point. If the numbers are not similar, then the user knows to adjust the position of the robot until the distance measurements are similar once more.
