@@ -5,11 +5,11 @@
 
 Welcome! The purpose of this repository is to provide easy access to information about our FRC localization system project. Our project aims to locate First Robotics Competition (FRC) robots in the competition field. We created this system according to the following design requirements:
 
-*The localization system must be an off-the-shelf product that is:*
-1. *Less than $400*
-2. *Compatible with the FRC control system that is used by each team*
-3. *Accurate within one foot, but preferably within one inch*
-4. *Programmable in Java, C++, or LabVIEW*
+The localization system must be an off-the-shelf product that is:
+1. Less than $400
+2. Compatible with the FRC control system that is used by each team
+3. Accurate within one foot, but preferably within one inch
+4. Programmable in Java, C++, or LabVIEW
 
 Our system consists of three main parts: one that determines the initial position of the robot, another that finds the instantaneous position of the robot throughout the competition, and a third that displays the position of the robot in a user-friendly manner.
 
