@@ -29,6 +29,26 @@ Wheel components:
   - A [10-inch D-shaft](https://www.servocity.com/0-250-1-4-x-10-00-stainless-steel-d-shafting/).
   - A [12-wire through hole slip ring](https://www.amazon.com/Taidacent-Electrical-Collector-Conductive-Connector/dp/B07XHQLJ2H/ref=sr_1_2?dchild=1&keywords=CNBTR%2B12%2BWires%2B12.7MM%2BHole%2BDia%2BCurrent%2BConductors%2BCircuits%2BThrough%2BHole%2BSlip%2BRing%2B380V%2BAC%2FDC%2B10A%2BPower%2BCollector%2BRing%2B54mm&qid=1611349663&s=hi&sr=1-2&th=1).
   
-2) Download Arduino IDE from [here](https://www.arduino.cc/en/software).
 
-3) 
+2) The wiring of the electronic components is as follows:
+  - 
+ 
+3) Wheel set-up: 
+  - In order to set up the wheel, 
+    - Attach a Bore Set Screw D-Hub to each side of the wheel and run 4 1-inch screws through both of them, leaving space for an axle to go through. Attach nuts to the other ends of the screws.
+    - Attach ½ inch bearing to the lowest ½ inch holes on each side of the pattern bracket, and run the 3-inch shaft through each of those with the wheel/hubs in the middle of them. On the outside of each of the bearings, attach a shaft collar around the shaft to hold it in place.
+    - Attach the ¼ inch diameter adaptor to the encoder. Attach that encoder to one end of the shaft and use tape to fix it to the pattern bracket. On the side where the encoder is attached, attach the counter to the bracket with tape.
+    - Attach the dual ball bearing hub to the ½ inch hole on top of the pattern bracket using two 1-inch screws. Run the 4 inch shaft through the dual ball bearing hub and attach an encoder with a ¼ inch adapter to the end of the shaft inside of the pattern bracket.
+    - Attach the slip ring to one of the holes on the pattern plate. On that hole, attach a Bore Set Screw D-Hub. Run the four inch shaft attached to the top of the wheel apparatus to that D-Hub and use shaft collars to hold the shaft in place.
+    - A budget sheet of all the components and their cost can be found [here](https://docs.google.com/spreadsheets/d/1regwJqUuxn_IKwp0wBsyjQyA4pPa4EQ17EqyYSeluSA/edit#gid=0).
+   
+   
+  - The following [diagram](https://i.imgur.com/OC7xE48.png) can be referenced to make sure your wheel is set up correctly. 
+  
+
+4) Once your wheel is set up and components are wired, you are ready to implement the software aspect of the project:
+  - Download Arduino IDE from [here](https://www.arduino.cc/en/software).
+  - In order to display your position readings in Visual Studio Code or the Driver Station console, you need
+    - Software prerequisites (VS Code and WPI library):
+      - Download Visual Studio Code [here](https://code.visualstudio.com/download).
+      - 
