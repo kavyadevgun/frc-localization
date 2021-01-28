@@ -53,6 +53,8 @@ A multi color LED will change color as an indicator of how close the user is to 
   
 *A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).*
 
+![Video](https://i.imgur.com/X7MHJbm.mp4)
+
 ### Software
 The Arduino code for this system is available in this repository under the name "[Ultrasonic_Sensor_System_Code.ino](https://github.com/kavyadevgun/frc-localization/tree/gh-pages/Ultrasonic_Sensor_System_Code)". 
 
