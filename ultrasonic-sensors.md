@@ -1,5 +1,9 @@
+# Initial Position System
+
+### Sensor Overview
 Finding the initial position is key to minimize error throughout the competition. To do this, we created a system that uses HC-SR04 Ultrasonic Sensors. We chose these sensors because they are compatible with Arduino, and they come in most Arduino starter kits. These sensors are also a good choice because they are budget-friendly without compromising measurement accuracy. The sensors have the ability to measure distances between 0.78 inches and 196 inches, and they are precise up to 0.12 inches (source [here](https://www.amazon.com/Smraza-Ultrasonic-Distance-Mounting-Duemilanove/dp/B01JG09DCK/ref=sr_1_3?dchild=1&keywords=hcsr04+ultrasonic+sensor&qid=1611768243&sr=8-3)).
 
+### Sensor Function
 The function of these sensors is fairly straightforward. Each ultrasonic sensor has two transducers -- one transmitter and one reciever. The transmitter sends out a sound pulse at 40 kHz which then reflects off of a hard, stationary surface (note: cloth fabrics tend to absorb these sound waves and are unable to reflect them). After reflection, the receiver picks up on the reflected pulse and records the total time (in microseconds) that the process took from initial transmission to final reciept. The following calculation is then performed to yield distance traveled in inches ([source](https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/)):
 
 ![Diagram 1](https://i.imgur.com/lByl8aq.jpg)
@@ -7,6 +11,8 @@ The function of these sensors is fairly straightforward. Each ultrasonic sensor 
 By implementing an LCD screen, this distance measurement is visually output and constantly updates on the screen.  
 
 In addition, students will be able to point the sensor set-up at a solid surface and save their desired distances in the Arduino computer that is wired inside of the system.  These “presets” will serve as various positions the robot can be placed in at the start of the round. During the actual competition, the students will be able to cycle through their saved presets -- a total of four presets -- so that they can recall precise initial positions and align the robot as accurately as possible. 
+
+### RGB LED Light Conditions
 
 A multi color LED will change color as an indicator of how close the user is to the current preset. The LED conditions are as follows:
 
@@ -21,6 +27,8 @@ actualdistance > distanceSet - 12 && actualdistance ≤ distanceSet - 1 OR actua
 **Green light**
 
 actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
+
+### Assembly Instructions
 
 - Purchase [this](https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/ref=sr_1_1_sspa?dchild=1&keywords=Arduino+Kit&qid=1611777868&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVVE2TU5ROE9JWEhDJmVuY3J5cHRlZElkPUEwMDM3MDU5MzRMV0NTQ0UyTlNVSiZlbmNyeXB0ZWRBZElkPUExMDAxMzc2M1RTT1dKR0NNR05TQiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) Arduino kit, or the following supplies:
   - Arduino Uno R3 board
@@ -47,5 +55,9 @@ These sensors can be used again throughout the competition to “check” and re
 
 A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).
 
+### Future Considerations
+
 Future considerations for these sensors include designing a custom circuit board for a more permanant product (as opposed to soldering, making the system more accesible to FRC teams), integrating the ultrasonic sensors with the roboRIO in conjunction with the position system for recalibration purposes,
-and adding ping pong balls over the LEDs so that their color is more visible from far distances. 
+and adding ping pong balls over the LEDs so that their color is more visible from far distances.
+
+The Arduino code for this system is avaliable in this repository under the name "ultrasonic_sensor_system_code.ino".
