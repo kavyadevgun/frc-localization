@@ -48,7 +48,16 @@ Wheel components:
 
 4) Once your wheel is set up and components are wired, you are ready to implement the software aspect of the project:
   - Download Arduino IDE from [here](https://www.arduino.cc/en/software).
-  - In order to display your position readings in Visual Studio Code or the Driver Station console, you need
-    - Software prerequisites (VS Code and WPI library):
+  - In order to display your position readings in Visual Studio Code or the Driver Station console, you need to
+    - Install software prerequisites (VS Code and WPI library):
       - Download Visual Studio Code [here](https://code.visualstudio.com/download).
-      - 
+      - Download the WPILib from [here](https://github.com/wpilibsuite/allwpilib/releases/tag/v2021.2.1). You will find instructions on installing WPILib [here](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html).
+      - Learn more about VS Code and WPILib extension [here](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/vscode-basics.html). You can also find the WPILab commands in VS Code [here](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/wpilib-commands-vscode.html). 
+     - Build and deploy the Arduino program that calculates instantaneous position:
+      - Connect your Arduino board to roboRIO via USB.
+      - Make sure you are connected to the Driver Station.
+      - Scroll down to Creating a New WPILib Project and follow instructions until the end of [this page](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html). 
+      - Open the New Project, which will show up as Robot.Java on the left menu, and copy and paste [this code](https://github.com/brad95411/RoboRIOSerialToArduino/blob/master/src/main/java/frc/robot/Robot.java). Detailed explanation of the Java code, which sends signals from roboRIO to Arduino and receives signals back, can be found [here](https://www.youtube.com/watch?v=RMHCSwLIyqg&ab_channel=BradBickford). You can try the [Arduino code](https://github.com/brad95411/ArduinoSerialToRoboRIO/blob/master/RoboRIOSerialResponse.ino) provided in the video to make sure everything works properly. 
+      - Now you can build your project by following [this link](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/deploying-robot-code.html).
+     
+
