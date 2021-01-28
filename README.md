@@ -23,6 +23,6 @@ One of the encoders will be used to find the distance that the add-on wheel has 
 
 The end goal for this product will be a system composed of two parts, the initial positioning system and the instantaneous positioning system. At the start of the match, the users will use the initial positioning system to properly place the robot at their desired distances away from reference points, accompanied by visual confirmation. Once the match starts, users will start using the instantaneous positioning system, which will set their starting position as (0, 0). The robot will then track its position through an add-on wheel which is presumed to be in constant contact with the ground. As described above, the readings of the two encoders and navX-mxp sensors will be processed by Arduino to calculate the position of the wheel. 
 
-**add second paragraph about system integration here**
+Once we have a value for position, we will display this information in Visual Studio Code (VS Code) or the Driver Station console. This can be done by a Java code that makes RoboRIO send a signal to Arduino to request information about the position. Once Arduino has sent a signal containing the position coordinates, the program will display this information in VS Code. The position coordinates can also be viewed in the Driver Station console to make it easier for the robot driver. 
 
 Please check out the other pages in this repository for more specifics about each project.
