@@ -32,13 +32,15 @@ actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
   - Female to male jumper cables
   - Soldering device
 
-- Setting up System
+- Setting Up System
 
   Using the soldering gun, attach all parts of the system according to this circuit diagram:
 
 ![Diagram 2](https://i.imgur.com/Nut4l3B.jpg)
 
-To use the system, point the sensors at hard surfaces to take distance measurements. These measurements will appear on the LCD screen and will change as more distances are measured. To store a preset distance in the Arduino's memory, hold down Button #1 until an message flashes on the screen indicating the new set distances, d1 and d2. To recall the preset distances at any time, hold down Button #2 until the set distances flash across the LCD screen. To rotate between the four preset distances, hold down Button #3 until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly before holding it down again until the "PRESET" indicator appears on the screen once more.
+- Using System
+
+Point the sensors at hard surfaces to take distance measurements. These measurements will appear on the LCD screen and will change as more distances are measured. To store a preset distance in the Arduino's memory, hold down Button #1 until an message flashes on the screen indicating the new set distances, d1 and d2. To recall the preset distances at any time, hold down Button #2 until the set distances flash across the LCD screen. To rotate between the four preset distances, hold down Button #3 until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly before holding it down again until the "PRESET" indicator appears on the screen once more.
 
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point.
 
