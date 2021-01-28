@@ -44,7 +44,8 @@ Wheel components:
    
    
   - The following diagram can be referenced to make sure your wheel is set up correctly. 
-  [Diagram 1](https://i.imgur.com/9mRG25O.png)
+  
+  ![Diagram 1](https://i.imgur.com/9mRG25O.png)
   
 
 4) Once your wheel is set up and components are wired, you are ready to implement the software aspect of the project:
