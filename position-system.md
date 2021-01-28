@@ -22,7 +22,7 @@ Wheel components:
   - Duct tape.
   - A [pattern bracket B](https://www.servocity.com/pattern-bracket-b/).
   - [Washers](https://www.servocity.com/6-undersized-washers-25-pack/).
-  - A [hole pattern plate] (https://www.servocity.com/4-5-x-6-aluminum-pattern-plate/).
+  - A [hole pattern plate](https://www.servocity.com/4-5-x-6-aluminum-pattern-plate/).
   - 25 [1/4-inch 6-32 UNC Socket Head Screws](https://www.servocity.com/6-32-socket-head-screws/).
   - 25 [one-inch 6-32 UNC Socket Head Screws](https://www.servocity.com/6-32-socket-head-screws/).
   - 25 [6-32 UNC Nuts](https://www.servocity.com/6-32-nylock-nuts-pack-25-pack/).
