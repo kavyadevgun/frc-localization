@@ -46,20 +46,18 @@ A multi color LED will change color as an indicator of how close the user is to 
 
 - Using the system
 
-  Point the sensors at hard surfaces to take distance measurements. These measurements will appear on the LCD screen and will
-  change as more distances are measured. To store a preset distance in the Arduino's memory, hold down Button #1 until an
-  message flashes on the screen indicating the new set distances, d<sub>1</sub> and d<sub>2</sub>. To recall the preset distances at any time, hold
-  down Button #2 until the preset distances flash across the LCD screen. To rotate between the four preset distances, hold down
-  Button #3 until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change
-  switch to another preset again, release the button briefly before holding it down again until the "PRESET" indicator appears
-  on the screen once more.
+  Point the sensors at hard surfaces to take distance measurements. These measurements will appear on the LCD screen and will change as more distances are measured. To store a 
+  preset distance in the Arduino's memory, hold down Button #1 until a message flashes on the screen indicating the new set distances, d<sub>1</sub> and d<sub>2</sub>. To recall 
+  the preset distances at any time, hold down Button #2 until the preset distances flash across the LCD screen. To rotate between the four preset distances, hold down Button #3 
+  until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly 
+  before holding it down again until the "PRESET" indicator appears on the screen once more.
   
-  These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by
-  the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally,
-  if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the
-  robot is oriented properly relative to the measurement reference point.
+  A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).
 
-A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).
+### Alignment Feature
+These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point. If the numbers are not similar, then the user knows to adjust the position of the robot until the distance measurements are similar once more.
+
+### Results
 
 ### Future Considerations
 
