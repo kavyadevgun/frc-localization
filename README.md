@@ -15,15 +15,17 @@ Our system consists of three main parts: one that determines the initial positio
 
 We tackled this project by splitting our group into two teams -- the first team investigated the use of HC-SR04 Ultrasonic Sensors to determine the initial position of the robot relative to the objects in and around the field. The second team investigated the use of encoder technology used in conjunction with a navX sensor to report the robot's instantaneous position throughout the course of the competition. 
 
-The first system will be used to determine and check the placement of the initial position of the robot. Using two HC-SR04 Ultrasonic Sensors oriented in the same plane, students will be able to set and save starting positions that they would like their robot to be placed in during the actual competition. By saving these desired distances in the Arduino memory during the competition preparation season, students will be able to access these same saved distance measurements when initially placing their robots prior to the actual competition. They will receive visual confirmation of correct placement in two ways — both the desired and actual distance measurements will be displayed on an LCD screen, and a pair of RGB LEDs will light up differently according to set conditions based on the saved, preset distances. This system will also aid in proper alignment of the robot before the competition starts. **we should add a picture of the sensors and LCD screen here**
+The first system will be used to determine and check the placement of the initial position of the robot. Using two HC-SR04 Ultrasonic Sensors oriented in the same plane, students will be able to set and save starting positions that they would like their robot to be placed in during the actual competition. By saving these desired distances in the Arduino memory during the competition preparation season, students will be able to access these same saved distance measurements when initially placing their robots prior to the actual competition. They will receive visual confirmation of correct placement in two ways — both the desired and actual distance measurements will be displayed on an LCD screen, and a pair of RGB LEDs will light up differently according to set conditions based on the saved, preset distances. This system will also aid in proper alignment of the robot before the competition starts. Picture of our currect prototype:
+
+![Diagram 1](https://i.imgur.com/og15BO1.jpg)
 
 The second system will be used to give the user constant updates on the position of the robot. This will be achieved through combining the readings of two incremental encoders and a navX-mxp sensor. The encoders will be placed on an add-on wheel, which will be attached to the robot.
 
-![Diagram 1](https://i.imgur.com/NkYWwsZ.png)
+![Diagram 2](https://i.imgur.com/NkYWwsZ.png)
 
 The following technical drawing of the wheel shows the placement of the two encoders:
 
-![Diagram 2](https://i.imgur.com/9mRG25O.png) 
+![Diagram 3](https://i.imgur.com/9mRG25O.png) 
 
 Additionally, the navX-mxp sensor will be placed on the robot.
 
