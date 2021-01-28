@@ -17,7 +17,15 @@ We tackled this project by splitting our group into two teams -- the first team 
 
 The first system will be used to determine and check the placement of the initial position of the robot. Using two HC-SR04 Ultrasonic Sensors oriented in the same plane, students will be able to set and save starting positions that they would like their robot to be placed in during the actual competition. By saving these desired distances in the Arduino memory during the competition preparation season, students will be able to access these same saved distance measurements when initially placing their robots prior to the actual competition. They will receive visual confirmation of correct placement in two ways — both the desired and actual distance measurements will be displayed on an LCD screen, and a pair of RGB LEDs will light up differently according to set conditions based on the saved, preset distances. This system will also aid in proper alignment of the robot before the competition starts. **we should add a picture of the sensors and LCD screen here**
 
-The second system will be used to give the user constant updates on the position of the robot. This will be achieved through combining the readings of two incremental encoders and a navX-mxp sensor. The encoders will be placed on an add-on wheel ([shown here](https://i.imgur.com/NkYWwsZ.png)), which will be attached to the robot. [This](https://i.imgur.com/9mRG25O.png) technical drawing of the wheel shows the placement of the two encoders. Additionally, the navX-mxp sensor will be placed on the robot.
+The second system will be used to give the user constant updates on the position of the robot. This will be achieved through combining the readings of two incremental encoders and a navX-mxp sensor. The encoders will be placed on an add-on wheel, which will be attached to the robot.
+
+![Diagram 1](https://i.imgur.com/NkYWwsZ.png)
+
+The following technical drawing of the wheel shows the placement of the two encoders:
+
+![Diagram 2](https://i.imgur.com/9mRG25O.png) 
+
+Additionally, the navX-mxp sensor will be placed on the robot.
 
 One of the encoders will be used to find the distance that the add-on wheel has traveled. The other encoder will be used to get the orientation of the wheel relative to the direction of the robot. The navX-mxp sensor will be used to find the orientation of the robot. Our program will compare the orientation from the encoder attached to the upper axle to that from navX. By taking the angles added together, the system is able to determine the orientation of the add-on wheel relative to its starting orientation. Finally, our program will put together the traveled distance and the orientation to print out the current position of the wheel.
 
