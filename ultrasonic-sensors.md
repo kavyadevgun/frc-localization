@@ -41,4 +41,4 @@ To use the system, point the sensors at hard surfaces to take distance measureme
 
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point.
 
-Future considerations for these sensors include adding ping pong balls over the LEDs so that their color more visible from far distances. **add more** 
+Future considerations for these sensors include a custom circuit board for a more permanent solution than soldering and adding ping pong balls over the LEDs so that their color more visible from far distances.
