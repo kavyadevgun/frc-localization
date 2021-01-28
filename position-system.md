@@ -59,5 +59,11 @@ Wheel components:
       - Scroll down to Creating a New WPILib Project and follow instructions until the end of [this page](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html). 
       - Open the New Project, which will show up as Robot.Java on the left menu, and copy and paste [this code](https://github.com/brad95411/RoboRIOSerialToArduino/blob/master/src/main/java/frc/robot/Robot.java). Detailed explanation of the Java code, which sends signals from roboRIO to Arduino and receives signals back, can be found [here](https://www.youtube.com/watch?v=RMHCSwLIyqg&ab_channel=BradBickford). You can try the [Arduino code](https://github.com/brad95411/ArduinoSerialToRoboRIO/blob/master/RoboRIOSerialResponse.ino) provided in the video to make sure everything works properly. 
       - Now you can build your project by following [this link](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/deploying-robot-code.html).
+     - Now that your Arduino is connected to roboRIO, you will need to download [this folder](https://github.com/kavyadevgun/frc-localization/tree/gh-pages/Instantaneous%20Position%20Project) to your computer. Copy and paste [this Arduino](https://github.com/kavyadevgun/frc-localization/blob/gh-pages/Instantaneous%20Position%20Project/Arduino%20code%20for%20position.ino) code into a new project in your Arduino IDE. 
+     - You then will build your project and deploy your code to display the results of your Arduino project in VS Code. You can also view your results in one of the two methods outlined in [this link](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/viewing-console-output.html). 
+
+
+5) Accuracy of the system:
+  - 
      
 
