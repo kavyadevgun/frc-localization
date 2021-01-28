@@ -41,8 +41,8 @@ A multi color LED will change color as an indicator of how close the user is to 
 
   ![Diagram 2](https://i.imgur.com/Nut4l3B.jpg)
 
-  This is only a prototype circuit, but the system can be made permanent by soldering the components to an Arduino proto
-  shield.
+  This is only a prototype circuit if assembled with the breadboards that are listed above, but the system can be made 
+  permanent by soldering the components to an Arduino proto shield.
 
 - Using the system
 
