@@ -55,8 +55,6 @@ Video demonstrating these features:
 
 [![Watch the video](https://i.imgur.com/RxjYdKk.png)](https://www.youtube.com/watch?v=9ASeUNyned8)
 
-[![Watch the video](https://i.imgur.com/eaKqJp4.png)](https://www.youtube.com/watch?v=9ASeUNyned8)
-
 ### Software
 The Arduino code for this system is available in this repository under the name "[Ultrasonic_Sensor_System_Code.ino](https://github.com/kavyadevgun/frc-localization/tree/gh-pages/Ultrasonic_Sensor_System_Code)". 
 
