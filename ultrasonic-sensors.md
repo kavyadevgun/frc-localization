@@ -64,5 +64,4 @@ The final test confirmed that the two ultrasonic sensors attached to the system 
 
 ### Future Considerations
 
-Future considerations for these sensors include designing a custom circuit board for a more permanant product (as opposed to soldering, making the system more accesible to FRC teams), integrating the ultrasonic sensors with the roboRIO in conjunction with the position system for recalibration purposes,
-and adding ping pong balls over the LEDs so that their color is more visible from far distances.
+Future considerations for these sensors include designing a custom circuit board for a more permanent product (as opposed to soldering, making the system more accessible to FRC teams), integrating the ultrasonic sensors with the roboRIO in conjunction with the position system for recalibration purposes, and adding ping pong balls over the LEDs so that their color is more visible from far distances.
