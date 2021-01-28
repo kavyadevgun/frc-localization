@@ -51,7 +51,7 @@ A multi color LED will change color as an indicator of how close the user is to 
   until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly 
   before holding it down again until the "PRESET" indicator appears on the screen once more.
   
-*Video demonstrating these features:*
+Video demonstrating these features:
 
 [![Watch the video](https://i.imgur.com/RxjYdKk.png)](https://www.youtube.com/watch?v=9ASeUNyned8)
 
