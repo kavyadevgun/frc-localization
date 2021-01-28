@@ -46,7 +46,8 @@ actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
 
   ![Diagram 2](https://i.imgur.com/Nut4l3B.jpg)
 
-  This is only a prototype circuit, but the system can be made permanent by soldering the components to a Arduino proto shield.
+  This is only a prototype circuit, but the system can be made permanent by soldering the components to an Arduino proto
+  shield.
 
 - Using the system
 
