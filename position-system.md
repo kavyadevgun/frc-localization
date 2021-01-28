@@ -109,7 +109,9 @@ Wheel components:
  
  
  [Video 2](https://i.imgur.com/xqjVCyB.mp4)
+ 
  This is a loop-closure test where we moved the wheel in arbitarty lines. 
+ 
  
 6) Conclusion:
 
