@@ -100,7 +100,7 @@ Wheel components:
     - On table moving for 1 minute returning to the same position; desired (0,0), measured by the system (-2.2,13.7).
     - On floor moving for 35 seconds before returning to the same position wheel and robot not always in alignment; desired (0,0), measured by the system (7.7,4.3).
     - On floor moving for 42 seconds before returning to the same position with the wheel and robot in the same alignment; desired (0,0), meaured by the system (3.25, 1.17).
-    - On floor moving for 2:30 minutes before returning to the same position, wheel and robot not always in alignment; desired (0,0), measured by the system (7.62, 32.11).
+    - On floor moving for 2 minutes and 30 seconds before returning to the same position, wheel and robot not always in alignment; desired (0,0), measured by the system (7.62, 32.11).
  - The following videos show two of the above mentioned tests:
  
  Video 1
