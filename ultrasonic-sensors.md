@@ -18,7 +18,7 @@ actualdistance > distanceSet - 12 && actualdistance < distanceSet - 1 OR actuald
 
 actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
 
-- Supplies
+- Purchase [this](https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/ref=sr_1_1_sspa?dchild=1&keywords=Arduino+Kit&qid=1611777868&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVVE2TU5ROE9JWEhDJmVuY3J5cHRlZElkPUEwMDM3MDU5MzRMV0NTQ0UyTlNVSiZlbmNyeXB0ZWRBZElkPUExMDAxMzc2M1RTT1dKR0NNR05TQiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) Arduino kit, or the following supplies:
   - Arduino Uno R3 board
   - Compatible Arduino proto shield
   - 2 HC-SR04 ultrasonic sensors
