@@ -34,6 +34,7 @@ Wheel components:
   - All the electronic components are connected according to the following diagram 
   
   ![Diagram 2](https://i.imgur.com/E0KE8Bl.png)
+  
   Note that the NavX sensor is represented by the black and red board.
   
   - The wiring will be done in 3 phrases:
