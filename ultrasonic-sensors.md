@@ -58,6 +58,9 @@ A multi color LED will change color as an indicator of how close the user is to 
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point. If the numbers are not similar, then the user knows to adjust the position of the robot until the distance measurements are similar once more.
 
 ### Results
+We conducted numerous tests to see how accurate the initial position system is at detecting distance. We tested their how well the sensors measure distances, how repeatable these measurements are, and alignment of these sensors. From these tests, we concluded that the HC-SR04 Ultrasonic Sensors can consistently measure within one inch of the actual distance. In addition, these tests yielded results to suggest that these measurements are repeatable within one inch, meaning if a sensor is initially set a certain distance away from a surface, moved around, and set back in its original position, the first and second distance measurements are within one inch of each other.
+
+The final test confirmed that the two ultrasonic sensors attached to the system must be further apart to ensure that similar measurements are not caused by smaller arc lengths (from the angle that the sensors are offset by). This arc length will be shorter when the sensors are closer together, but longer when they are further apart. When they are further apart, this will cause more measurement variability, but more assurance that the sensors are properly aligned.
 
 ### Future Considerations
 
