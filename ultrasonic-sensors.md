@@ -16,9 +16,9 @@ In addition, students will be able to point the sensor set-up at a solid surface
 
 A multi color LED will change color as an indicator of how close the user is to the current preset. The LED conditions are as follows:
 
-- Red light: The actual distance from an object is different by 12 inches from the set distance
-- Yellow light: The actual distance from an object is between one and 12 inches different from the set distance
-- Green light: The actual distance from an object is less than one inch different from the set distance
+- Red light: The actual, instantaneous distance from an object is different by 12 inches from the set distance
+- Yellow light: The actual, instantaneous distance from an object is between one and 12 inches different from the set distance
+- Green light: The actual, instantaneous distance from an object is less than one inch different from the set distance
 
 ### Assembly Instructions
 
