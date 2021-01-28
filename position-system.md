@@ -22,7 +22,7 @@ Wheel components:
   - Duct tape.
   - A [pattern bracket B](https://www.servocity.com/pattern-bracket-b/).
   - [Washers](https://www.servocity.com/6-undersized-washers-25-pack/).
-  - A [hole pattern plate](https://www.servocity.com/4-5-x-6-aluminum-pattern-plate/).
+  - A [hole pattern plate] (https://www.servocity.com/4-5-x-6-aluminum-pattern-plate/).
   - 25 [1/4-inch 6-32 UNC Socket Head Screws](https://www.servocity.com/6-32-socket-head-screws/).
   - 25 [one-inch 6-32 UNC Socket Head Screws](https://www.servocity.com/6-32-socket-head-screws/).
   - 25 [6-32 UNC Nuts](https://www.servocity.com/6-32-nylock-nuts-pack-25-pack/).
@@ -47,7 +47,7 @@ Wheel components:
         - Breakout board V to encoder VCC.
         - Breakout board A to encoder channel A.
         - Breakout board B to encoder channel B.
-      - To connect the [dual LS7366R quadrature encoder buffer](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/) board to Arduino, the wiring is as follows:
+      - To connect the[dual LS7366R quadrature encoder buffer](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/) board to Arduino, the wiring is as follows:
         - Breakout board S1 to Arduino Digital pin 7.
         - Breakout board S2 to Arduino Digital pin 8.
         - Breakout board MDSI to Arduino Digital pin 11.
@@ -96,6 +96,39 @@ Wheel components:
 
 
 5) Accuracy of the system:
-  - 
+  - The following is a list of tests we ran to test for the accuracy of the system:
+    - On table moving for 1 minute returning to the same position; desired (0,0), measured by the system (-2.2,13.7).
+    - On floor moving for 35 seconds before returning to the same position wheel and robot not always in alignment; desired (0,0), measured by the system (7.7,4.3).
+    - On floor moving for 42 seconds before returning to the same position with the wheel and robot in the same alignment; desired (0,0), meaured by the system (3.25, 1.17).
+    - On floor moving for 2:30 minutes before returning to the same position, wheel and robot not always in alignment; desired (0,0), measured by the system (7.62, 32.11).
+ - The following videos show two of the above mentioned tests:
+ 
+ Video 1
+ 
+ Video 2
+ 
+6) Conclusion:
+
+  - Loop-closure test: 
+    - System is accurate within 4 inches for straight lines.
+    - System is less accurate for arbitrary motion. 
+  
+  - Straight line movement:
+    - System is accurate within 5 inches. 
+    
+  - Speed:
+    - System is less accurate for fast movement. 
+    
+  - Time:
+    - System’s accuracy declines as time increases.
+    
+    
+7) Future Considerations:
+  - Recalibration will dramatically improve our localization system. Otherwise, the robot’s position will continue to build error over time. The idea with recalibration is that since the map of the field is handed out prior to competition day, and teams will know specific locations the robot will be in in order to complete a task or obstacle. This will allow teams to pick specific points the robot is guaranteed to be in and basically override the system’s current known position with the location’s actual coordinates. For example, if one task was to shoot a basketball into a hoop, before the competition, students could figure out that the robot had to be at 100 inches in the x direction and 50 inches in the y direction away from the origin to make a shot. Then, on competition day, when the robot is at that location and makes a shot, if the system’s location is not (100, 50), students can override the robot’s system and replace it with the correct location of the robot so the system would read (100, 50). This is almost like pressing reset as if the robot is now starting from the position it shot the basket rather than its initial position when students first laid the robot down. And again, this will allow our project to work for a longer period of time, as it will be able to check itself and adjust position throughout the match. Overall, recalibration can help to improve our current 3 part system.
+  - One potential source of error within the code is that it does not take into account the rotation of the wheel when calculating the robot’s position. For example, if the robot is moving forward with the wheel facing backwards and then moves backwards a couple of inches, the wheel will swivel about so that it is facing forwards. Since this is swiveling and not the wheel itself moving forwards and backwards, the wheel will not measure any changing distances, and so, these couple of inches the robot has moved will not be accounted for. Ultimately, this should not be more than a couple of inches since the error will go away as soon as the wheel realigns itself. This is not an egregious error, but it is still something that can be accounted for within the code, removing the error, making it a potential future consideration.
+
+ 
+ 
+
      
 
