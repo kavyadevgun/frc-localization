@@ -40,19 +40,28 @@ actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
   - Breadboard (avaliable in a package deal with [jumper wires](https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&K=3B2G0ZV0A1VH&M=urn:rtn:msg:202101171230453b721d91c130407fb321505db850p0na&R=1J0D6UYLQI8HN&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB07H7V1X7Y%2Fref%3Dpe_386300_442618370_TE_dp_i1&H=2QLPGXOGBSAUXRDOIELJDQK2R4OA&ref_=pe_386300_442618370_TE_dp_i1))
   - [RGB LEDs](https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&K=3B2G0ZV0A1VH&M=urn:rtn:msg:202101171230453b721d91c130407fb321505db850p0na&R=NIS0DW0LO0TO&T=C&U=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB01C19ENDM%2Fref%3Dpe_386300_442618370_TE_dp_i2&H=XONWUUVMACQN5QKISLCAYXWYFPGA&ref_=pe_386300_442618370_TE_dp_i2)
 
-- Setting Up System
+- Setting up the system
 
   Assemble parts according to this circuit diagram:
 
-![Diagram 2](https://i.imgur.com/Nut4l3B.jpg)
+  ![Diagram 2](https://i.imgur.com/Nut4l3B.jpg)
 
   This is only a prototype circuit, but the system can be made permanent by soldering the components to a Arduino proto shield.
 
-- Using System
+- Using the system
 
-Point the sensors at hard surfaces to take distance measurements. These measurements will appear on the LCD screen and will change as more distances are measured. To store a preset distance in the Arduino's memory, hold down Button #1 until an message flashes on the screen indicating the new set distances, d1 and d2. To recall the preset distances at any time, hold down Button #2 until the preset distances flash across the LCD screen. To rotate between the four preset distances, hold down Button #3 until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly before holding it down again until the "PRESET" indicator appears on the screen once more.
-
-These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point.
+  Point the sensors at hard surfaces to take distance measurements. These measurements will appear on the LCD screen and will
+  change as more distances are measured. To store a preset distance in the Arduino's memory, hold down Button #1 until an
+  message flashes on the screen indicating the new set distances, d1 and d2. To recall the preset distances at any time, hold
+  down Button #2 until the preset distances flash across the LCD screen. To rotate between the four preset distances, hold down
+  Button #3 until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change
+  switch to another preset again, release the button briefly before holding it down again until the "PRESET" indicator appears
+  on the screen once more.
+  
+  These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by
+  the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally,
+  if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the
+  robot is oriented properly relative to the measurement reference point.
 
 A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).
 
