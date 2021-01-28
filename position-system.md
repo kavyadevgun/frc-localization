@@ -103,9 +103,13 @@ Wheel components:
     - On floor moving for 2 minutes and 30 seconds before returning to the same position, wheel and robot not always in alignment; desired (0,0), measured by the system (7.62, 32.11).
  - The following videos show two of the above mentioned tests:
  
- Video 1
+ [Video 1](https://i.imgur.com/P3PsFXG.mp4)
  
- Video 2
+ This is a loop-closure test where we moved the wheel in mostly straight lines. 
+ 
+ 
+ [Video 2](https://i.imgur.com/xqjVCyB.mp4)
+ This is a loop-closure test where we moved the wheel in arbitarty lines. 
  
 6) Conclusion:
 
