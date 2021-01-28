@@ -12,11 +12,11 @@ A multi color LED will change color as an indicator of how close the user is to 
 
 **Red light**
 
-actualdistance < distanceSet - 12 OR actualdistance > distanceSet + 12
+actualdistance ≤ distanceSet - 12 OR actualdistance ≥ distanceSet + 12
 
 **Yellow light**
 
-actualdistance > distanceSet - 12 && actualdistance < distanceSet - 1 OR actualdistance < distanceSet + 12 && actualdistance > distanceSet + 1
+actualdistance > distanceSet - 12 && actualdistance ≤ distanceSet - 1 OR actualdistance < distanceSet + 12 && actualdistance ≥ distanceSet + 1
 
 **Green light**
 
@@ -43,4 +43,5 @@ These sensors can be used again throughout the competition to “check” and re
 
 A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).
 
-Future considerations for these sensors include adding ping pong balls over the LEDs so that their color more visible from far distances. **add more** 
+Future considerations for these sensors include designing a custom circuit board for a more permanant product (as opposed to soldering, making the system more accesible to FRC teams), integrating the ultrasonic sensors with the roboRIO in conjunction with the position system for recalibration purposes,
+and adding ping pong balls over the LEDs so that their color is more visible from far distances. 
