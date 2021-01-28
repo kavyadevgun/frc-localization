@@ -51,7 +51,14 @@ A multi color LED will change color as an indicator of how close the user is to 
   until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly 
   before holding it down again until the "PRESET" indicator appears on the screen once more.
   
-*A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8). The Arduino code for this system is available in this repository under the name "Ultrasonic_Sensor_System_Code.ino". You can download Arduino IDE from [here](https://www.arduino.cc/en/software).*
+*A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).*
+
+### Software
+The Arduino code for this system is available in this repository under the name "[Ultrasonic_Sensor_System_Code.ino](https://github.com/kavyadevgun/frc-localization/tree/gh-pages/Ultrasonic_Sensor_System_Code)". 
+
+You can download Arduino IDE from [here](https://www.arduino.cc/en/software).
+
+You can download the necessary libraries used in our code [here](https://github.com/fasteddy516/ButtonEvents) and [here](https://github.com/thomasfredericks/Bounce2).
 
 ### Alignment Feature
 These sensors can be used again throughout the competition to “check” and recalibrate the position of the robot as needed by the user. Additionally, there are two sensors in each set-up so that the system can be used for alignment purposes. Ideally, if the two sensors are reading two numbers that are very close to each other, the user has a general idea of whether the robot is oriented properly relative to the measurement reference point. If the numbers are not similar, then the user knows to adjust the position of the robot until the distance measurements are similar once more.
