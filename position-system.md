@@ -47,7 +47,7 @@ Wheel components:
         - Breakout board V to encoder VCC.
         - Breakout board A to encoder channel A.
         - Breakout board B to encoder channel B.
-      - To connect the[dual LS7366R quadrature encoder buffer](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/) board to Arduino, the wiring is as follows:
+      - To connect the [dual LS7366R quadrature encoder buffer](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/) board to Arduino, the wiring is as follows:
         - Breakout board S1 to Arduino Digital pin 7.
         - Breakout board S2 to Arduino Digital pin 8.
         - Breakout board MDSI to Arduino Digital pin 11.
