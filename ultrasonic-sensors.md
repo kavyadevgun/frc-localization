@@ -13,7 +13,6 @@ By implementing an LCD screen, this distance measurement is visually output and 
 In addition, students will be able to point the sensor set-up at a solid surface and save their desired distances in the Arduino computer that is wired inside of the system.  These “presets” will serve as various positions the robot can be placed in at the start of the round. During the actual competition, the students will be able to cycle through their saved presets -- a total of four presets -- so that they can recall precise initial positions and align the robot as accurately as possible. 
 
 ### RGB LED Light Conditions
-
 A multi color LED will change color as an indicator of how close the user is to the current preset. The LED conditions are as follows:
 
 - Red light: The actual, instantaneous distance from an object differs by 12 inches or more from the preset distance
@@ -63,5 +62,4 @@ We conducted numerous tests to see how accurate the initial position system is a
 The final test confirmed that the two ultrasonic sensors attached to the system must be further apart to ensure that similar measurements are not caused by smaller arc lengths (from the angle that the sensors are offset by). This arc length will be shorter when the sensors are closer together, but longer when they are further apart. When they are further apart, this will cause more measurement variability, but more assurance that the sensors are properly aligned.
 
 ### Future Considerations
-
 Future considerations for these sensors include designing a custom circuit board for a more permanent product (as opposed to soldering, making the system more accessible to FRC teams), integrating the ultrasonic sensors with the roboRIO in conjunction with the position system for recalibration purposes, and adding ping pong balls over the LEDs so that their color is more visible from far distances.
