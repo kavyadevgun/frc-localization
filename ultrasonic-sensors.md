@@ -51,9 +51,9 @@ A multi color LED will change color as an indicator of how close the user is to 
   until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly 
   before holding it down again until the "PRESET" indicator appears on the screen once more.
   
-*A video demonstrating these features can be found [here](https://www.youtube.com/watch?v=9ASeUNyned8).*
+*Video demonstrating these features:*
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=9ASeUNyned8)
+[![Watch the video]([Imgur](https://i.imgur.com/RxjYdKk.png)](https://www.youtube.com/watch?v=9ASeUNyned8)
 
 ### Software
 The Arduino code for this system is available in this repository under the name "[Ultrasonic_Sensor_System_Code.ino](https://github.com/kavyadevgun/frc-localization/tree/gh-pages/Ultrasonic_Sensor_System_Code)". 
