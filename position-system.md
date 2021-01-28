@@ -33,14 +33,14 @@ Wheel components:
 2) The wiring of the electronic components is as follows:
   - All the electronic components are connected according to the following diagram 
   
-  [Diagram 2](https://i.imgur.com/E0KE8Bl.png)
+  ![Diagram 2](https://i.imgur.com/E0KE8Bl.png)
   Note that the NavX sensor is represented by the black and red board.
   
   - The wiring will be done in 3 phrases:
     - Encoders to the [Dual LS7366R Quadrature Encoder Buffer board](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/):
       - There are two channels to connect the two encoders to the counter board  as shown in the following diagram.
       
-      [Diagram 3](https://i.imgur.com/bVWCu50.png)
+      ![Diagram 3](https://i.imgur.com/bVWCu50.png)
       - For each encoder, the wiring is as follows:
         - Breakout board G to encoder Ground.
         - Breakout board V to encoder VCC.
