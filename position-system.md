@@ -7,7 +7,7 @@ Electronic components:
   - [Female-to-male dupont wires](https://www.amazon.com/female-jumper-Dupont-Arduino-Breadboard/dp/B01FDD3LJA). 
   - A [breadboard](https://www.amazon.com/DEYUE-breadboard-Set-Prototype-Board/dp/B07LFD4LT6/ref=sr_1_1?dchild=1&keywords=breadboard&qid=1611798540&s=electronics&sr=1-1).
   - [Breadboard jumper wires](https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY/ref=sr_1_3?crid=295FBR6HWRJ6Z&dchild=1&keywords=breadboard+jumper+wires&qid=1611798578&s=electronics&sprefix=breadboard+jump%2Celectronics%2C191&sr=1-3). 
-  - [2K resistors](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QJB31M4/ref=sr_1_3?crid=11MPBKEPVKXA4&dchild=1&keywords=2k+resistor&qid=1611798604&sprefix=2k+resistance%2Celectronics%2C179&sr=8-3). 
+  - [2 kΩ resistors](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QJB31M4/ref=sr_1_3?crid=11MPBKEPVKXA4&dchild=1&keywords=2k+resistor&qid=1611798604&sprefix=2k+resistance%2Celectronics%2C179&sr=8-3). 
 
 Wheel components:
   - 2 [AMT 103V Encoders](https://www.mouser.com/ProductDetail/CUI-Devices/AMT103-V?qs=%2Fha2pyFadugimG5fIsqch5ZfA8H%2FZ5abFSUgMn5%252BIVw%3D&gclid=CjwKCAiAu8SABhAxEiwAsodSZMTk4yNiF3Q1-kwQHPKwzAf8UvomMOSElIQCnKRo9gF3vlXJTWBh5RoCKS4QAvD_BwE).
@@ -37,7 +37,7 @@ Wheel components:
   
   Note that the NavX sensor is represented by the black and red board.
   
-  - The wiring will be done in 3 phrases:
+  - The wiring will be done in 3 phases:
     - Encoders to the [Dual LS7366R Quadrature Encoder Buffer board](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/):
       - There are two channels to connect the two encoders to the counter board  as shown in the following diagram.
       
@@ -56,8 +56,8 @@ Wheel components:
         - Breakout board GND to Arduino ground.
         - Breakout board 5V to Arduino 5V pin.
       - The [NavX sensor](https://pdocs.kauailabs.com/navx-mxp/) will be connected to the Arduino board using the I2C port in the NavX to the I2C pins on the Arduino. The wiring instructions are as follows:
-        - NavX I2C SDA to Arduino SDA with a 2.2 k pullup resistor.
-        - NavX I2C SCL to Arduino SCL with a 2.2 k pullup resistor.
+        - NavX I2C SDA to Arduino SDA with a 2.2 kΩ pullup resistor.
+        - NavX I2C SCL to Arduino SCL with a 2.2 kΩ pullup resistor.
         - NavX I2C + to Arduino 5V.
         - NavX I2C G to Arduino ground.
       
