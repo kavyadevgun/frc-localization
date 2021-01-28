@@ -31,7 +31,36 @@ Wheel components:
   
 
 2) The wiring of the electronic components is as follows:
-  - 
+  - All the electronic components are connected according to the following diagram 
+  
+  [Diagram 2](https://i.imgur.com/E0KE8Bl.png)
+  Note that the NavX sensor is represented by the black and red board.
+  
+  - The wiring will be done in 3 phrases:
+    - Encoders to the [Dual LS7366R Quadrature Encoder Buffer board](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/):
+      - There are two channels to connect the two encoders to the counter board  as shown in the following diagram.
+      
+      [Diagram 3](https://i.imgur.com/bVWCu50.png)
+      - For each encoder, the wiring is as follows:
+        - Breakout board G to encoder Ground.
+        - Breakout board V to encoder VCC.
+        - Breakout board A to encoder channel A.
+        - Breakout board B to encoder channel B.
+      - To connect the[dual LS7366R quadrature encoder buffer](https://www.superdroidrobots.com/shop/item.aspx/dual-ls7366r-quadrature-encoder-buffer/1523/) board to Arduino, the wiring is as follows:
+        - Breakout board S1 to Arduino Digital pin 7.
+        - Breakout board S2 to Arduino Digital pin 8.
+        - Breakout board MDSI to Arduino Digital pin 11.
+        - Breakout board MOSD to Arduino Digital pin 12.
+        - Breakout board SCLK to Arduino Digital pin 13.
+        - Breakout board GND to Arduino ground.
+        - Breakout board 5V to Arduino 5V pin.
+      - The [NavX sensor](https://pdocs.kauailabs.com/navx-mxp/) will be connected to the Arduino board using the I2C port in the NavX to the I2C pins on the Arduino. The wiring instructions are as follows:
+        - NavX I2C SDA to Arduino SDA with a 2.2 k pullup resistor.
+        - NavX I2C SCL to Arduino SCL with a 2.2 k pullup resistor.
+        - NavX I2C + to Arduino 5V.
+        - NavX I2C G to Arduino ground.
+      
+      
  
 3) Wheel set-up: 
   - In order to set up the wheel, 
