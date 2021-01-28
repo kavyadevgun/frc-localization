@@ -43,7 +43,7 @@ Wheel components:
     - A budget sheet of all the components and their cost can be found [here](https://docs.google.com/spreadsheets/d/1regwJqUuxn_IKwp0wBsyjQyA4pPa4EQ17EqyYSeluSA/edit#gid=0).
    
    
-  - The following [diagram](https://i.imgur.com/OC7xE48.png) can be referenced to make sure your wheel is set up correctly. 
+  - [This diagram](https://i.imgur.com/9mRG25O.png) can be referenced to make sure your wheel is set up correctly. 
   
 
 4) Once your wheel is set up and components are wired, you are ready to implement the software aspect of the project:
