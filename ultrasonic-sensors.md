@@ -30,13 +30,14 @@ actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
   - 3 Buttons
   - Male to male jumper cables
   - Female to male jumper cables
-  - Soldering device
 
 - Setting Up System
 
-  Using the soldering gun, attach all parts of the system according to this circuit diagram:
+  Assemble parts according to this circuit diagram:
 
 ![Diagram 2](https://i.imgur.com/Nut4l3B.jpg)
+
+  This is only a prototype circuit, but the system can be made permanent by soldering the components to a Arduino proto shield.
 
 - Using System
 
