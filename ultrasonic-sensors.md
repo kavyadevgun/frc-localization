@@ -33,8 +33,9 @@ actualdistance > distanceSet - 1 && actualdistance < distanceSet + 1
   - Soldering device
 
 - Setting up System
-  - Using the soldering gun, attach all parts of the system according to this circuit diagram
-  - A circuit diagram of the system set-up can be found [here](https://i.imgur.com/Nut4l3B.jpg). **add better picture here and label components**
+  - Using the soldering gun, attach all parts of the system according to this circuit diagram:
+
+![Diagram 2](https://i.imgur.com/Nut4l3B.jpg). **add better picture here and label components**
 
 To use the system, point the sensors at hard surfaces to take distance measurements. These measurements will appear on the LCD screen and will change as more distances are measured. To store a preset distance in the Arduino's memory, hold down Button #1 until an message flashes on the screen indicating the new set distances, d1 and d2. To recall the preset distances at any time, hold down Button #2 until the set distances flash across the LCD screen. To rotate between the four preset distances, hold down Button #3 until the LCD screen flashes a message indicating "PRESET 1", "PRESET 2", "PRESET 3", or "PRESET 4". To change switch to another preset again, release the button briefly before holding it down again until the "PRESET" indicator appears on the screen once more.
 
